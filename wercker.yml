@@ -34,4 +34,4 @@ github-pages:
     - script:
         name: push to GitHub Pages
         code: |
-          git push -f origin gh-pages
+          git push -f origin master:gh-pages
