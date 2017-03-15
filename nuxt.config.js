@@ -17,7 +17,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['~assets/css/main.css', 'vuetify/dist/vuetify.min.css'],
+  css: ['vuetify/dist/vuetify.min.css', '~assets/css/main.css'],
   /*
   ** Customize the progress-bar color
   */

@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "nuxt": "^0.9.9",
-    "vuetify": "^0.8.10"
+    "vuetify": "^0.9.1"
   },
   "scripts": {
     "dev": "nuxt",
