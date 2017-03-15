@@ -8,6 +8,9 @@ build:
     - script:
         name: copy build to deployable
         code: cp -a ./dist/. $WERCKER_OUTPUT_DIR
+    - script:
+        name: add CNAME
+        code: echo "www.marvinroger.fr" > $WERCKER_OUTPUT_DIR/CNAME
 
 github-pages:
   steps:
