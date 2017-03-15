@@ -1,0 +1,49 @@
+{
+  "works": [
+    {
+      "title": "Homie",
+      "description": "Une convention MQTT légère pour l'IdO.",
+      "color": "red",
+      "imageUrl": "/img/portfolio/homie.png",
+      "githubUrl": "https://github.com/marvinroger/homie",
+      "websiteUrl": "https://homieiot.github.io"
+    },
+    {
+      "title": "Homie for ESP8266",
+      "description": "Une implémentation C++ pour <i>Arduino pour ESP8266</i> d'<i>Homie</i>.",
+      "color": "red",
+      "imageUrl": "/img/portfolio/homie-esp8266.png",
+      "githubUrl": "https://github.com/marvinroger/homie-esp8266",
+      "websiteUrl": "https://homie-esp8266.readme.io"
+    },
+    {
+      "title": "Homie Dashboard",
+      "description": "Une interface Web pour <i>Homie</i>, codée en JavaScript avec Node.js et Vue.js.",
+      "color": "red",
+      "imageUrl": "/img/portfolio/homie-dashboard.png",
+      "githubUrl": "https://github.com/INTECH-RGB/homie-dashboard"
+    },
+    {
+      "title": "OrthoCité",
+      "description": "Un jeu ludique codé en C#/.Net, permettant aux enfants d'apprendre l'orthographe en s'amusant.",
+      "color": "teal",
+      "imageUrl": "/img/portfolio/orthocite.png",
+      "githubUrl": "https://github.com/INTECHS3/OrthoCite"
+    },
+    {
+      "title": "AsyncMqttClient",
+      "description": "Un client MQTT asynchrone pour <i>Arduino pour ESP8266</i>, codé en C++.",
+      "color": "purple",
+      "imageUrl": "/img/portfolio/async-mqtt-client.png",
+      "githubUrl": "https://github.com/marvinroger/async-mqtt-client"
+    },
+    {
+      "title": "Docker Crossarch",
+      "description": "Des builds Docker multi-architectures (AMD64, ARMhf) automatisées et publiées quotidiennement sur le Docker Hub. Utilise QEMU pour la virtualisation et Travis CI pour la publication quotidienne.",
+      "color": "green",
+      "imageUrl": "/img/portfolio/docker-crossarch.png",
+      "githubUrl": "https://github.com/docker-crossarch/repos",
+      "websiteUrl": "https://hub.docker.com/u/crossarch"
+    }
+  ]
+}

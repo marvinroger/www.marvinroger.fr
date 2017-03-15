@@ -1,0 +1,33 @@
+<template>
+  <div>
+    <v-row>
+      <v-col v-for="work in portfolio.works" xs12="xs12" sm6="sm6" lg3="lg3" class="work">
+        <Work :title="work.title" :description="work.description" :color="work.color" :image-url="work.imageUrl" :github-url="work.githubUrl" :website-url="work.websiteUrl" />
+      </v-col>
+    </v-row>
+  </div>
+</template>
+<script>
+import Work from '~components/portfolio/Work'
+import portfolio from '~assets/portfolio'
+
+export default {
+  data () {
+    return {
+      portfolio
+    }
+  },
+  head () {
+    return {
+      title: 'Portfolio - Marvin ROGER'
+    }
+  },
+  components: { Work }
+}
+</script>
+
+<style scoped>
+.work {
+  margin: .5rem 0;
+}
+</style>
