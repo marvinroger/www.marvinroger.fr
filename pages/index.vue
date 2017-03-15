@@ -8,6 +8,10 @@
 
             <h1 class="headline mt-3">Marvin ROGER</h1>
             <h2 class="title">Développeur logiciel</h2>
+            <p id="location">
+              <v-icon>place</v-icon>
+              <span>Paris, France</span>
+            </p>
           </v-card-text>
         </v-card>
       </v-col>
