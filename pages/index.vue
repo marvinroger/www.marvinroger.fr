@@ -8,10 +8,6 @@
 
             <h1 class="headline mt-3">Marvin ROGER</h1>
             <h2 class="title">Développeur logiciel</h2>
-            <p id="location">
-              <v-icon>place</v-icon>
-              <span>Paris, France</span>
-            </p>
           </v-card-text>
         </v-card>
       </v-col>
@@ -19,24 +15,18 @@
 
     <v-row>
       <v-col xs12="xs12" class="text-xs-center mt-3">
-        <a href="https://github.com/marvinroger" class="link" target="_blank">
-          <v-btn secondary>
-            <v-icon left>code</v-icon>
-            GitHub
-          </v-btn>
-        </a>
-        <nuxt-link class="link" to="/portfolio">
-          <v-btn error>
-            <v-icon left>dashboard</v-icon>
-            Portfolio
-          </v-btn>
-        </nuxt-link>
-        <a :href="'mailto:' + ['bonjourmarvin', 'marvinroger.fr'].join('@')" class="link" target="_blank">
-          <v-btn class="blue">
-            <v-icon left>email</v-icon>
-            E-mail
-          </v-btn>
-        </a>
+        <v-btn secondary href="https://github.com/marvinroger" target="_blank">
+          <v-icon left>code</v-icon>
+          GitHub
+        </v-btn>
+        <v-btn error href="/portfolio" router>
+          <v-icon left>dashboard</v-icon>
+          Portfolio
+        </v-btn>
+        <v-btn class="blue" :href="'mailto:' + ['bonjourmarvin', 'marvinroger.fr'].join('@')">
+          <v-icon left>email</v-icon>
+          E-mail
+        </v-btn>
       </v-col>
     </v-row>
   </div>
@@ -71,9 +61,5 @@ export default {
 
 .title {
   font-weight: 300;
-}
-
-.link {
-  text-decoration: none;
 }
 </style>

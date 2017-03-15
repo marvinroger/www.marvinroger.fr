@@ -12,15 +12,11 @@
       <p v-html="description"></p>
     </v-card-text>
     <v-card-row actions :class="color" class="darken-1 mt-0">
-      <a v-if="websiteUrl" :href="websiteUrl" target="_blank">
-        <v-btn flat class="white--text">Site Web</v-btn>
-      </a>
+      <v-btn flat class="white--text" :href="websiteUrl" target="_blank">Site Web</v-btn>
       <v-spacer></v-spacer>
-      <a v-if="githubUrl" :href="githubUrl" target="_blank">
-        <v-btn icon v-tooltip:top="{ html: 'Voir les sources sur GitHub' }">
-          <v-icon class="white--text">code</v-icon>
-        </v-btn>
-      </a>
+      <v-btn icon v-tooltip:top="{ html: 'Voir les sources sur GitHub' }" v-if="githubUrl" :href="githubUrl" target="_blank">
+        <v-icon class="white--text">code</v-icon>
+      </v-btn>
     </v-card-row>
   </v-card>
 </template>
