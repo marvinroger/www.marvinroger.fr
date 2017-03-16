@@ -4,7 +4,7 @@
       <v-col xs12="xs12" sm6="sm6" lg4="lg4" xl3="xl3" class="centered">
         <v-card class="z-depth-3">
           <v-card-text class="text-xs-center">
-            <img src="../assets/img/avatar.jpg" alt="Photo do Marvin ROGER" id="avatar" />
+            <img src="../assets/img/avatar.jpg" alt="Photo de Marvin ROGER" id="avatar" />
 
             <h1 class="headline mt-3">Marvin ROGER</h1>
             <h2 class="title">Développeur logiciel</h2>
@@ -38,6 +38,11 @@
 
 <script>
 export default {
+  head () {
+    return {
+      title: 'Hey!'
+    }
+  }
 }
 </script>
 
@@ -53,10 +58,6 @@ export default {
   margin: auto;
 
   border-radius: 100%;
-}
-
-#location {
-  line-height: 24px;
 }
 
 #location span {
