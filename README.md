@@ -1,6 +1,8 @@
-# www.marvinroger.fr
+# [www.marvinroger.fr](https://www.marvinroger.fr)
 
-> Personal website
+[![dependencies Status](https://david-dm.org/marvinroger/www.marvinroger.fr/status.svg)](https://david-dm.org/marvinroger/www.marvinroger.fr) [![devDependencies Status](https://david-dm.org/marvinroger/www.marvinroger.fr/dev-status.svg)](https://david-dm.org/marvinroger/www.marvinroger.fr?type=dev)
+
+My personal website. Automatically built and published on [GitHub Pages](https://github.com/marvinroger/www.marvinroger.fr/tree/gh-pages).
 
 ## Build Setup
 
