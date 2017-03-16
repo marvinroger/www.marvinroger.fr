@@ -6,7 +6,10 @@
       "color": "red",
       "imageUrl": "/img/portfolio/homie.png",
       "githubUrl": "https://github.com/marvinroger/homie",
-      "websiteUrl": "https://homieiot.github.io"
+      "website": {
+        "title": "Site Web",
+        "url": "https://homieiot.github.io"
+      }
     },
     {
       "title": "Homie for ESP8266",
@@ -14,7 +17,10 @@
       "color": "red",
       "imageUrl": "/img/portfolio/homie-esp8266.png",
       "githubUrl": "https://github.com/marvinroger/homie-esp8266",
-      "websiteUrl": "https://homie-esp8266.readme.io"
+      "website": {
+        "title": "Documentation",
+        "url": "https://homie-esp8266.readme.io"
+      }
     },
     {
       "title": "Homie Dashboard",
@@ -39,11 +45,31 @@
     },
     {
       "title": "Docker Crossarch",
-      "description": "Des builds Docker multi-architectures (AMD64, ARMhf) automatisées et publiées quotidiennement sur le Docker Hub. Utilise QEMU pour la virtualisation et Travis CI pour la publication quotidienne.",
+      "description": "Des builds Docker multi-architectures (AMD64, ARMhf) automatisées et publiées quotidiennement sur le Docker Hub. Utilise Bash, QEMU pour la virtualisation et Travis CI pour la publication quotidienne.",
       "color": "green",
       "imageUrl": "/img/portfolio/docker-crossarch.png",
       "githubUrl": "https://github.com/docker-crossarch/repos",
-      "websiteUrl": "https://hub.docker.com/u/crossarch"
+      "website": {
+        "title": "Docker Hub",
+        "url": "https://hub.docker.com/u/crossarch"
+      }
+    },
+    {
+      "title": "UNION'TECH: The Game",
+      "description": "Organisation d'une compétition continue en équipe organisée au sein de l'école <i>IN'TECH</i>. Les équpes progressent à travers des activités réelles (Paintball, escape game) et par le biais d'énigmes et de codes cachés tout au long du semestre au sein de l'école, dans les e-mails et sur le site Web.",
+      "color": "amber",
+      "imageUrl": "/img/portfolio/uniontech-thegame.jpg",
+      "githubUrl": "https://github.com/uniontech-thegame",
+      "website": {
+        "title": "Site Web",
+        "url": "http://www.uniontech-thegame.tk"
+      }
+    },
+    {
+      "title": "UNION'TECH",
+      "description": "Conception et enseignement d'une sensibilisation à l'informatique et à ses dangers à des enfants du centre de loisirs Maurice THOREZ, à Ivry-sur-Seine.",
+      "color": "amber",
+      "imageUrl": "/img/portfolio/uniontech.gif"
     }
   ]
 }
