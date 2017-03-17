@@ -1,6 +1,6 @@
 # [www.marvinroger.fr](https://www.marvinroger.fr)
 
-[![dependencies Status](https://david-dm.org/marvinroger/www.marvinroger.fr/status.svg)](https://david-dm.org/marvinroger/www.marvinroger.fr) [![devDependencies Status](https://david-dm.org/marvinroger/www.marvinroger.fr/dev-status.svg)](https://david-dm.org/marvinroger/www.marvinroger.fr?type=dev)
+[![wercker status](https://app.wercker.com/status/30adcd21029a78bf5f83aa35a8f5c4a5/s/master "wercker status")](https://app.wercker.com/project/byKey/30adcd21029a78bf5f83aa35a8f5c4a5) [![dependencies Status](https://david-dm.org/marvinroger/www.marvinroger.fr/status.svg)](https://david-dm.org/marvinroger/www.marvinroger.fr) [![devDependencies Status](https://david-dm.org/marvinroger/www.marvinroger.fr/dev-status.svg)](https://david-dm.org/marvinroger/www.marvinroger.fr?type=dev)
 
 My personal website. Automatically built and published on [GitHub Pages](https://github.com/marvinroger/www.marvinroger.fr/tree/gh-pages).
 
