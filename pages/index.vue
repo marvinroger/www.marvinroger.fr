@@ -19,6 +19,10 @@
 
     <v-row>
       <v-col xs12="xs12" class="text-xs-center mt-3">
+        <v-btn class="deep-orange" href="/cv.pdf" target="_blank">
+          <v-icon left>account_circle</v-icon>
+          CV
+        </v-btn>
         <v-btn secondary href="https://github.com/marvinroger" target="_blank">
           <v-icon left>code</v-icon>
           GitHub
