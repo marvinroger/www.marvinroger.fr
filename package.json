@@ -5,7 +5,7 @@
   "author": "Marvin Roger <nivramdu94@gmail.com>",
   "private": true,
   "dependencies": {
-    "nuxt": "^0.9.9",
+    "nuxt": "^0.10.5",
     "vuetify": "^0.9.1"
   },
   "scripts": {
