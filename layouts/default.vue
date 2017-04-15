@@ -1,6 +1,6 @@
 <template>
   <v-app top-toolbar footer>
-    <v-toolbar class="transparent z-depth-0">
+    <v-toolbar class="transparent elevation-0">
       <nuxt-link to="/"><img src="../assets/img/logo.png" alt="Logo" class="logo" /></nuxt-link>
       <v-toolbar-title>
         {{ pageTitle }}
