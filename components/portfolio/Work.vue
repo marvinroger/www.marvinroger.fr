@@ -12,9 +12,9 @@
       <p v-html="description"></p>
     </v-card-text>
     <v-card-row actions :class="color" class="darken-1 mt-0">
-      <v-btn flat class="white--text" v-if="website" :href="website.url" target="_blank">{{ website.title }}</v-btn>
+      <v-btn tag="a" flat class="white--text" v-if="website" :href="website.url" target="_blank">{{ website.title }}</v-btn>
       <v-spacer></v-spacer>
-      <v-btn icon v-tooltip:top="{ html: 'Voir les sources sur GitHub' }" v-if="githubUrl" :href="githubUrl" target="_blank">
+      <v-btn tag="a" icon v-tooltip:top="{ html: 'Voir les sources sur GitHub' }" v-if="githubUrl" :href="githubUrl" target="_blank">
         <v-icon class="white--text">code</v-icon>
       </v-btn>
     </v-card-row>

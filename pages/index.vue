@@ -19,19 +19,19 @@
 
     <v-row>
       <v-col xs12="xs12" class="text-xs-center mt-3">
-        <v-btn class="deep-orange" href="/cv.pdf" target="_blank">
+        <v-btn tag="a" href="/cv.pdf" target="_blank" class="deep-orange">
           <v-icon left>account_circle</v-icon>
           CV
         </v-btn>
-        <v-btn secondary href="https://github.com/marvinroger" target="_blank">
+        <v-btn tag="a" href="https://github.com/marvinroger" target="_blank" secondary>
           <v-icon left>code</v-icon>
           GitHub
         </v-btn>
-        <v-btn error href="/portfolio" router>
+        <v-btn router href="/portfolio" error>
           <v-icon left>dashboard</v-icon>
           Portfolio
         </v-btn>
-        <v-btn class="blue" :href="'mailto:' + ['bonjourmarvin', 'marvinroger.fr'].join('@')">
+        <v-btn tag="a" :href="'mailto:' + ['bonjourmarvin', 'marvinroger.fr'].join('@')" class="blue">
           <v-icon left>email</v-icon>
           E-mail
         </v-btn>
