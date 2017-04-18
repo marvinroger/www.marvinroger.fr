@@ -4,7 +4,7 @@
       <v-card-row actions class="white--text pl-3 pt-3 pb-3">Picture.png</v-card-row>
     </v-card>
   </div> -->
-  <v-card class="card z-depth-3" :img="imageUrl">
+  <v-card class="card elevation-3" :img="imageUrl">
     <v-card-row :img="imageUrl" height="150px"></v-card-row>
     <v-card-text :class="color" class="darken-3 white--text">
       <h3 class="title">{{ title }}</h3>

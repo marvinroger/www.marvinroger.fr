@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col xs12="xs12" sm6="sm6" lg4="lg4" xl3="xl3" class="centered">
-        <v-card class="z-depth-3">
+        <v-card class="elevation-3">
           <v-card-text class="text-xs-center">
             <img src="../assets/img/avatar.jpg" alt="Photo de Marvin ROGER" id="avatar" />
 
