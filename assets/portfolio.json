@@ -37,6 +37,17 @@
       "githubUrl": "https://github.com/INTECHS3/OrthoCite"
     },
     {
+      "title": "Cargo",
+      "description": "Une application Android permettant d'utiliser les fonctions essentielles de son smartphone en voiture et en toute sécurité.",
+      "color": "green",
+      "imageUrl": "/img/portfolio/cargo.png",
+      "githubUrl": "https://github.com/cargoappme",
+      "website": {
+        "title": "Site Web",
+        "url": "https://www.cargoapp.me"
+      }
+    },
+    {
       "title": "AsyncMqttClient",
       "description": "Un client MQTT asynchrone pour <i>Arduino pour ESP8266</i>, codé en C++.",
       "color": "purple",
