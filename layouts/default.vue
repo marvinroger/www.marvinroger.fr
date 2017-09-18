@@ -1,20 +1,16 @@
 <template>
-  <v-app top-toolbar footer>
+  <v-app toolbar footer>
     <v-toolbar class="transparent elevation-0">
       <nuxt-link to="/"><img src="../assets/img/logo.png" alt="Logo" class="logo" /></nuxt-link>
-      <v-toolbar-title>
+      <v-toolbar-title class="white--text">
         {{ pageTitle }}
       </v-toolbar-title>
     </v-toolbar>
     <main>
-      <v-content class="content">
-        <v-container fluid>
-          <nuxt/>
-        </v-container>
-      </v-content>
+      <nuxt />
     </main>
-    <v-footer class="transparent">
-      <div class="text-xs-center">Copyright © {{ copyrightDate }} Marvin ROGER</div>
+    <v-footer class="transparent text-xs-center white--text">
+      <p>Copyright © {{ copyrightDate }} Marvin ROGER</p>
     </v-footer>
   </v-app>
 </template>
@@ -47,7 +43,7 @@ html {
   background-size: cover;
 }
 
-body, main, .content {
+body, main, .content, .application--light {
   background: none;
 }
 
@@ -55,7 +51,7 @@ body, main, .content {
   height: 30px;
 }
 
-.content {
-  padding: 1rem 3rem 0;
+.footer p {
+  width: 100%;
 }
 </style>

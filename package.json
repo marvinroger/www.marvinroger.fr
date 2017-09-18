@@ -5,25 +5,24 @@
   "author": "Marvin Roger <nivramdu94@gmail.com>",
   "private": true,
   "dependencies": {
-    "nuxt": "^0.10.5",
-    "vuetify": "^0.10.4"
+    "js-beautify": "1.6.14",
+    "nuxt": "^0.10.7",
+    "vuetify": "^0.15.7"
   },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "generate": "nuxt generate"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.19.0",
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.6.1",
-    "eslint-plugin-html": "^2.0.0",
+    "eslint-plugin-html": "^3.2.2",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.4.1",
     "eslint-plugin-standard": "^3.0.1"
   }

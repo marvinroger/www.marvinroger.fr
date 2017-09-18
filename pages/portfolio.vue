@@ -1,10 +1,12 @@
 <template>
   <div>
-    <v-row>
-      <v-col v-for="work in portfolio.works" :key="work.title" xs12="xs12" sm6="sm6" lg3="lg3" class="work">
-        <Work :title="work.title" :description="work.description" :color="work.color" :image-url="work.imageUrl" :github-url="work.githubUrl" :website="work.website" />
-      </v-col>
-    </v-row>
+    <v-container grid-list-lg fluid>
+      <v-layout wrap>
+        <v-flex v-for="work in portfolio.works" :key="work.title" xs12 sm6 md4 lg3 class="work">
+          <Work :title="work.title" :description="work.description" :color="work.color" :image-url="work.imageUrl" :github-url="work.githubUrl" :website="work.website" />
+        </v-flex>
+      </v-layout>
+    </v-container>
   </div>
 </template>
 <script>
@@ -25,9 +27,3 @@ export default {
   components: { Work }
 }
 </script>
-
-<style scoped>
-.work {
-  margin: .5rem 0;
-}
-</style>
