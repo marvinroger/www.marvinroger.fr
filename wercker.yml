@@ -24,4 +24,5 @@ netlify:
       code: export PATH="$(yarn global bin):$PATH"
     - script:
       name: deploy to Netlify
-      code: "$(yarn global bin)/netlify" deploy --access-token "${NETLIFY_ACCESS_TOKEN}" --site-id "${NETLIFY_SITE_ID}" --path ./dist
+      code: |
+        "$(yarn global bin)/netlify" deploy --access-token "${NETLIFY_ACCESS_TOKEN}" --site-id "${NETLIFY_SITE_ID}" --path ./dist
