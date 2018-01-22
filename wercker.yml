@@ -13,9 +13,12 @@ build:
     - script:
       name: copy build to deployable
       code: cp -a ./dist/. $WERCKER_OUTPUT_DIR
+    - script:
+      name: install Netlify CLI
+      code: yarn global add netlify-cli
 
 netlify:
   steps:
     - script:
       name: deploy to Netlify
-      code: yarn _netlify deploy --access-token "${NETLIFY_ACCESS_TOKEN}" --site-id "${NETLIFY_SITE_ID}" --path ./dist
+      code: netlify deploy --access-token "${NETLIFY_ACCESS_TOKEN}" --site-id "${NETLIFY_SITE_ID}" --path ./dist

@@ -12,8 +12,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "_netlify": "netlify"
+    "generate": "nuxt generate"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
@@ -24,7 +23,6 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.4.1",
-    "eslint-plugin-standard": "^3.0.1",
-    "netlify-cli": "^1.2.2"
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
