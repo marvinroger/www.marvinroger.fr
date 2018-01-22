@@ -24,4 +24,4 @@ netlify:
       code: yarn global add netlify-cli
     - script:
       name: deploy to Netlify
-      code: netlify deploy --access-token "${NETLIFY_ACCESS_TOKEN}" --site-id "${NETLIFY_SITE_ID}" --path ./dist
+      code: netlify deploy --access-token "${NETLIFY_ACCESS_TOKEN}" --site-id "${NETLIFY_SITE_ID}" --path ./
