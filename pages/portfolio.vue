@@ -10,8 +10,8 @@
   </div>
 </template>
 <script>
-import Work from '~components/portfolio/Work'
-import portfolio from '~assets/portfolio'
+import Work from '~/components/portfolio/Work'
+import portfolio from '~/assets/portfolio'
 
 export default {
   data () {
@@ -21,7 +21,7 @@ export default {
   },
   head () {
     return {
-      title: 'Portfolio'
+      title: '🎨 Portfolio'
     }
   },
   components: { Work }

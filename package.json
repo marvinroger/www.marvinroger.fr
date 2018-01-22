@@ -5,15 +5,15 @@
   "author": "Marvin Roger <nivramdu94@gmail.com>",
   "private": true,
   "dependencies": {
-    "js-beautify": "1.6.14",
-    "nuxt": "^0.10.7",
+    "nuxt": "^1.1.1",
     "vuetify": "^0.15.7"
   },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "_netlify": "netlify"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
@@ -24,6 +24,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.4.1",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "netlify-cli": "^1.2.2"
   }
 }
